@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://via.placeholder.com/1600x900'); /* Replace with a travel-themed image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    color: #f39c12;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+input, select, textarea, button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #f39c12;
+    outline: none;
+    box-shadow: 0 0 5px rgba(243, 156, 18, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        width: 100%;
+    }
+}

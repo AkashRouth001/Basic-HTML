@@ -1,0 +1,53 @@
+<!-- Create an HTML form for a travel website to book a vacation. -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <h1>Select Your Travel</h1>
+    <form action="/submit.php">
+
+        <!-- name -->
+        <div>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter the Name" required>
+        </div>
+        <!-- gnder -->
+        <div>
+            <label for="name">name</label>
+            <select id="name" required>
+                <option value=""disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        
+        <!-- ph number -->
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="Enter the Phone" required>
+        </div>
+        
+        <!-- email -->
+        <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Enter the Email" required>
+        </div>
+        <!-- address-->
+        <div>
+            <label for="address">Address</label>
+            <textarea name="Address" id="address" required></textarea>
+        </div>
+        <!-- submit -->
+         <div>
+            <button type ="submit">Submit</button>
+         </div>
+    
+    </form>
+ </body>
+ </html>

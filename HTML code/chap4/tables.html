@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        /* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Styling for the table heading */
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Styling the table */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the table header */
+thead th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Styling the table rows */
+tbody tr {
+    text-align: center;
+}
+
+/* Styling the table data cells */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row colors for better readability */
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+/* Adding hover effect on table rows */
+tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+    td, th {
+        padding: 5px;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>table in html</h1>
+    <table>
+        <!-- thead = header of a table -->
+         <!-- <tr></tr> = table row  -->
+        <thead>
+            <tr>
+                <!-- <th> tag: Used in place of table data for displaying table headers. -->
+                <th>Name</th>
+                <th>Role</th>
+                <th>Salary</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <!-- body of the table -->
+             <tr>
+                <!-- <td> tag: Used to display table data. -->
+                <td>Akash</td>
+                <td>Data analysis</td>
+                <td>$400000</td>
+             </tr>
+
+             <tr>
+                <td>Tanisha</td>
+                <td>cirbay sucarety</td>
+                <td>$400000</td>
+             </tr>
+
+             <tr>
+                <td>dalal</td>
+                <td>coumpuder</td>
+                <td>$4000</td>
+             </tr>
+             <tr>
+                <td colspan="3">thank</td>
+             </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
